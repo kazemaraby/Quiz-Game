@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Let's Play</Title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+        <link rel='icon' href="Images/1.jpeg" type="image/x-icon">
+        <script src="Script.js"></script>
+      
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body  class="body" >
+        <script>
+            var name= localStorage.getItem("name");
+            if(name==='null')
+            {
+                document.write("<h2 style='text-align: center;color: #8792ac;font-size:30px; font-style: italic;' >"+"welcome "  +"</h2>");
+            }
+            else
+            {
+                document.write("<h2 style='text-align: center;color: #8792ac;font-size:30px; font-style: italic;' >"+"welcome "+name  +"</h2>");
+            }
+           
+        </script>
+        
+        <div id="Menu" >
+            <div class="container large">
+                <a href="MatchingGame.html"><img src="Images/2.jpeg" alt="Matching Game">
+                <h2 title="Matching Game " >Matching Game</h2></a>
+            </div>
+            <div class="container large">
+                <a href="Quiz/edited.html"><img src="Images/2.jpeg" alt="Puzzle Game">
+                <h2 title="Quiz Game " >Quiz Game</h2></a>
+            </div>
+         </div>
+    </body>
+</html>

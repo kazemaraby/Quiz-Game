@@ -1,0 +1,46 @@
+
+#LeftSide
+{
+    width: 100%;
+    display: block;
+}
+#LeftSide #pic
+{
+    width: 100%;
+}
+#LeftSide #Contacts
+{
+    width: 100%;
+}
+#LeftSide #Contacts h2 
+{
+    display: none;
+}
+#LeftSide #Contacts div 
+{
+    display: inline-block;
+
+}
+#LeftSide #Contacts div i
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
+#LeftSide #Languages
+{
+    display: none;
+}
+#RightSide,#RightSide #secondPart #info ,#RightSide #secondPart #search,#RightSide #thirdPart .article
+{
+    width:100%;
+}
+#RightSide #thirdPart .article img
+{
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 5px;
+}
+#RightSide #secondPart,#RightSide #thirdPart 
+{
+   display: block;
+}

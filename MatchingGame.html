@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Let's Play</Title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+        <link rel='icon' href="Images/1.jpeg" type="image/x-icon">
+        <script src="Script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--1st Breakpoint -->
+		<link rel='stylesheet' href='style-tablet.css' media='screen and (min-width: 501px) and (max-width: 768px)'>
+		<!--2st Breakpoint -->
+		<link rel='stylesheet' href='style-smartphone.css' media='screen and (max-width: 500px)'>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <script>
+          window.addEventListener("load",Timer)
+      </script>
+    </head>
+    <body class="MatchingBody" onload="ResetStyle()"  >
+        <div id="Game">
+            <h2 id="timer"></h2>
+            <h2 id="Score"></h2>
+            <h2 id="result"></h2>
+           
+            <div id="MatchingGame">
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('20')"><img src="Images/11.jpeg" alt="Memory Game"class="RealPic" name="Real20">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake20"></a>
+                </div>
+                <div class="pic"  >
+                    <a href="#" onclick="FlipPic('0')" ><img src="Images/3.jpeg" alt="Memory Game" class="RealPic" name="Real0"  >
+                    <img src="Images/4.jpeg" alt="Memory Game" class="FakePic" name="Fake0"value="" ></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('16')"><img src="Images/14.jpeg" alt="Memory Game"class="RealPic" name="Real16">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake16"></a>
+                </div>
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('2')"><img src="Images/6.jpeg" alt="Memory Game"class="RealPic"name="Real2">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake2"></a>
+                </div>
+                <div class="pic"> 
+                    <a href="#" onclick="FlipPic('3')"><img src="Images/7.jpeg" alt="Memory Game"class="RealPic"name="Real3">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake3"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('22')"><img src="Images/14.jpeg" alt="Memory Game"class="RealPic" name="Real22">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake22"></a>
+                </div>
+               
+            </div>
+
+
+            <div id="MatchingGame" >
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('6')"><img src="Images/3.jpeg" alt="Memory Game"class="RealPic" name="Real6">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake6"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('23')"><img src="Images/15.jpeg" alt="Memory Game"class="RealPic" name="Real23">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake23"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('8')"><img src="Images/6.jpeg" alt="Memory Game"class="RealPic" name="Real8">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake8"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('14')"><img src="Images/11.jpeg" alt="Memory Game"class="RealPic" name="Real14">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake14"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('10')"><img src="Images/8.jpeg" alt="Memory Game"class="RealPic" name="Real10">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake10"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('11')"><img src="Images/13.jpeg" alt="Memory Game"class="RealPic" name="Real11">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake11"></a>
+                </div>
+            </div>
+            
+
+            <div id="MatchingGame">
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('12')"><img src="Images/9.jpeg" alt="Memory Game"class="RealPic" name="Real12">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake12"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('13')"><img src="Images/10.jpeg" alt="Memory Game"class="RealPic" name="Real13">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake13"></a>
+                </div>
+                
+                <div class="pic"> 
+                    <a href="#"onclick="FlipPic('15')"><img src="Images/12.jpeg" alt="Memory Game"class="RealPic" name="Real15">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake15"></a>
+                </div>
+                <div class="pic"> 
+                    <a href="#"onclick="FlipPic('9')"><img src="Images/7.jpeg" alt="Memory Game"class="RealPic" name="Real9">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake9"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('17')"><img src="Images/15.jpeg" alt="Memory Game"class="RealPic" name="Real17">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake17"></a>
+                </div>
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('1')"><img src="Images/5.jpeg" alt="Memory Game"class="RealPic" name="Real1" value="">
+                    <img src="Images/4.jpeg" alt="Memory Game" class="FakePic" name="Fake1"></a>
+                </div>
+            </div>
+            <div id="MatchingGame" class="BackFace">
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('18')"><img src="Images/9.jpeg" alt="Memory Game"class="RealPic" name="Real18">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake18"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('19')"><img src="Images/10.jpeg" alt="Memory Game"class="RealPic" name="Real19">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake19"></a>
+                </div>
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('5')"><img src="Images/13.jpeg" alt="Memory Game"class="RealPic"name="Real5">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake5"></a>
+                </div>
+               
+                <div class="pic"> 
+                    <a href="#"onclick="FlipPic('21')"><img src="Images/12.jpeg" alt="Memory Game"class="RealPic" name="Real21">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake21"></a>
+                </div>
+                <div class="pic">
+                    <a href="#"onclick="FlipPic('7')"><img src="Images/5.jpeg" alt="Memory Game"class="RealPic" name="Real7">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic" name="Fake7"></a>
+                </div>
+                
+                <div class="pic">
+                    <a href="#" onclick="FlipPic('4')"><img src="Images/8.jpeg" alt="Memory Game"class="RealPic"name="Real4">
+                    <img src="Images/4.jpeg" alt="Memory Game"class="FakePic"  name="Fake4"></a>
+                </div>
+            </div>
+            
+           
+        </div>
+
+        <div id="footer">
+              <div id="back">
+                <a href="PickGame.html"><i class="fas fa-arrow-circle-left"></i></a>
+              </div>  
+              <div id="Pause">
+                <a href="#" onclick=" Pause()"><i class="fas fa-pause-circle"></i></a>
+              </div>  
+        </div>
+    </body>
+</html>

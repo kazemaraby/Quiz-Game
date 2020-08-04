@@ -1,0 +1,158 @@
+.body
+{
+    margin:0;
+    background-image: url('Images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+#login
+{
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-style: italic;
+    color: blueviolet;
+}
+#login #name
+{
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #8792ac;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#button 
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #8792ac;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px; 
+}
+  
+#button:hover span
+{
+    padding-right: 25px;
+}
+#Menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container 
+{
+    position: relative;
+    width: 170px;
+    HEIGHT: 200px;
+    background-color:#ebe6e6;
+    
+    margin-left: 2%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.container h2 
+{
+    margin: 0;
+    padding: 0;
+    display: table;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 0;
+    COLOR: WHITE;
+    width: 100%;
+    height: 100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.3) , rgba(16, 22, 35, 0.4));
+    border-radius: 5px;
+}
+.container a img 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categories .large
+{
+    width: 542px;
+}
+.container a:hover img 
+{
+    opacity: 0%;
+}
+.container a:hover h2 
+{
+    color: black;
+    text-shadow: none;
+}
+.MatchingBody
+{
+    background-color: #ebe6e6;
+    box-sizing: border-box;
+}
+.MatchingBody #Game h2
+{
+    font-size: 30px;
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+}
+
+#MatchingGame
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+#MatchingGame .pic
+{
+   padding-left: 1%;
+}
+#MatchingGame .pic img
+{
+    width: 120px;
+    height: 150px;
+   
+}
+#MatchingGame .RealPic
+{
+    position: absolute;
+    transform: scale(0);
+}
+#MatchingGame .FakePic
+{
+    position: relative;
+}
+#footer
+{
+    display: flex;
+    justify-content: center;
+}
+#footer i
+{
+font-size: 50PX;
+font-weight: bold;
+color:black ;
+}
+
+
+

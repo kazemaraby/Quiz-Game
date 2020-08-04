@@ -1,0 +1,30 @@
+#LeftSide
+{
+    width: 100%;
+    display: flex;
+}
+#LeftSide #pic #headerPic img
+{
+    padding-left: 0%;
+}
+#LeftSide #Contacts h2 
+{
+    display: none;
+}
+#LeftSide #Contacts div 
+{
+    display: inline-block;
+    padding-top: 7%;
+}
+#LeftSide #Contacts div i
+{
+    font-size: 25px;
+}
+#LeftSide #Languages
+{
+    display: none;
+}
+#RightSide
+{
+    width:100%;
+}
